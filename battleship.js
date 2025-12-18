@@ -411,10 +411,10 @@ class Ship {
  */
 class Board {
 	// Cell colors
-	static INITIAL_COLOR = '#bbbbbb'; // Neutral color
-	static MISS_COLOR = '#006994';    // This reveals WATER
-	static HIT_COLOR = 'red';         // This reveals a ship
-	static COORD_COLOR = 'black';     // Edge cells
+	static INITIAL_COLOR = 'repeating-conic-gradient( #006994, #418faf 35%)'; // Neutral color
+	static MISS_COLOR = 'radial-gradient( #ff9100, #006994)';    // This reveals WATER
+	static HIT_COLOR = 'repeating-conic-gradient(#418faf 22.5deg 45deg, #006994 22.5deg 45deg, #47c01f 66.5deg 112.5deg)';         // This reveals a ship
+	static COORD_COLOR = '#1e1e1e';     // Edge cells
 
 	// Cell size
 	static CELL_SIZE_PX = 50
